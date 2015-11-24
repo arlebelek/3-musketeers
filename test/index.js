@@ -25,6 +25,7 @@ describe('is micro-checking library', function() {
         });
     });
     
+    
   describe('is.boolean', function(){
 	    it('should return true if argument type is boolean', function() {
 		  expect(is.boolean(true)).to.be.true;
