@@ -21,7 +21,7 @@ describe('is micro-checking library', function() {
             expect(is.array(['value1', 'value2'])).to.be.true;
         });
         it('should return false if passed argument type is not Array', function(){
-            expect(is.array('yassine')).to.be.false;
+            expect(is.array('what')).to.be.false;
         });
     });
     
